@@ -12,7 +12,7 @@ char *cap_string(char *n)
 	int separators[] = {',', ';', '.', '?', '"', '(', ')', '{', '}',
 			' ', '\n', '\t'};
 
-	for (a = 0; n[a] != '\n'; a++)
+	for (a = 0; n[a] != '\0'; a++)
 	{
 		if (n[a] >= 'a' && n[a] <= 'z')
 		{
