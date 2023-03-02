@@ -26,7 +26,7 @@ char *cap_string(char *n)
 			if (n[a] == separators[x])
 			{
 				x = 12;
-				cap = 32
+				cap = 32;
 			}
 		}
 	}
